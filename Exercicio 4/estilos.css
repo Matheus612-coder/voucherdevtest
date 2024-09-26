@@ -1,0 +1,74 @@
+.conteiner{
+
+    display: flex;
+    flex-direction: column;
+    background: rgb(23, 23, 66);
+    color: white;
+    height: 98vh;
+    width: 30vh;
+    margin-top: 0;
+    flex-wrap: wrap;
+
+}
+
+.titulo{
+    margin-left: 10vh;
+    padding-top: 2vh;
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+
+.conteiner2{
+   
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    
+
+}
+
+.opcao{
+    padding-left: 3vh;
+    flex-wrap: wrap;
+
+
+}
+
+
+.conteiner3{
+
+    
+    position: absolute;
+    top: 40px; left: 32vh;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.descobrir{
+    position: relative;
+    top: 40px; right:350px;
+}
+
+body{
+    margin: 0;
+}
+
+p{
+
+font-size: 20px;
+
+
+}
+
+img{
+    width: 165vh;
+    height: 795px;
+
+    margin-top: 10px;
+}
+
+
+
+
+

@@ -1,0 +1,195 @@
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0eaea;
+    font-size: 30px;
+
+
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.home{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+body{
+    margin: 0;
+   
+}
+
+:root{
+    --cor:#f0eaea;
+    --comprimento_bandeira: 100%;
+    --altura_bandeira: 100px;
+}
+
+.home, .destinos,.sobre{
+    justify-content: center;
+    display: flex;
+}
+
+.titulo{
+    background-color: var(--cor);
+    
+}
+
+.tour{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.lorem{
+    padding-left: 40px;
+    
+}
+
+button{
+    background-color: blue;
+    color: white;
+   
+   
+}
+
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.destinos2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 330px;
+    gap: 20px;
+   
+   
+}
+
+.tailandia{
+   
+    background-color: whitesmoke;
+    
+}
+
+.tailandia img{
+    height: 100px;
+    width: 100%;
+}
+
+
+.grecia{
+    
+    background-color: whitesmoke;
+}
+
+
+.grecia img{
+    height: 100px;
+    width: var(--comprimento_bandeira);
+}
+
+
+
+.espanha{
+   
+
+    background-color: whitesmoke;
+}
+
+
+.espanha img{
+    height: var(--altura_bandeira);
+    width: var(--comprimento_bandeira);
+}
+
+.conteiner2{
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    grid-template-rows: repeat(2,140px);
+    justify-content: center;
+    gap: 10px;
+  
+}
+
+.sobre2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.classificacao{
+    background-color: black;
+    color: white;
+}
+
+.taxas{
+    
+    background-color: gray;
+    
+}
+
+.sites{
+  
+    background-color: black;
+    color: white;
+}
+
+.caracteristicas{
+   
+    background-color: gray;
+}
+
+
+@media(max-width:1357px)
+{
+
+    .conteiner{
+       
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .destinos2{
+        grid-template-columns: 200px;
+    }
+
+    
+    .sobre{
+        padding-right: 10px;
+    }
+
+    
+    .titulo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+    
+   
+ .conteiner2{
+    grid-template-columns: 600px;
+ }
+
+
+ }
+
+ 
+
+
+
+
